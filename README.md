@@ -1,11 +1,10 @@
 Shorten URL:
 
     Request: POST /shorten
-    Body: {"url": "[https://example.com](https://www.youtube.com)"}
+    Body: {"url": "https://www.youtube.com"
     Response: {"short_url": "http://localhost:8080/abc123"}
 
 Retrieve URL:
 
     Request: GET /abc123
-    Response: Redirects to [https://example.com
-](https://www.youtube.com)
+    Response: Redirects to https://www.youtube.com
